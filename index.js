@@ -33,6 +33,12 @@ const questions = [
         message: 'Contribution Guidelines:',
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['MIT', 'GNU GPLv3', 'ISC'],
+    },
+    {
         type: 'input',
         name: 'testInstructions',
         message: 'Test Instructions:',

@@ -1,8 +1,12 @@
-# README Generator
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# README generator
 
 ## Description
 
-This is a command line application to generate dynamically a README.md file from a user's input.
+This is a command-line application that dynamically generates a README file from a user's input.
 
 ## Table of Contents
 
@@ -21,7 +25,7 @@ n/a
 <a name='usage'></a>
 ## Usage
 
-This project can be used to dynamically create a README.md file.
+This project can be used to dynamically create a README file.
 
 <a name='contributing'></a>
 ## Contributing
@@ -30,6 +34,8 @@ For suggestions please fork the repo and create a pull request.
 
 <a name='license'></a>
 ## License
+
+This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license.
 
 <a name='tests'></a>
 ## Tests
