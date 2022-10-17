@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# README generator
+# README Generator
 
 ## Description
 
@@ -30,7 +30,7 @@ This project can be used to dynamically create a README file.
 <a name='contributing'></a>
 ## Contributing
 
-For suggestions please fork the repo and create a pull request.
+For Suggestions please fork the repo and create a pull request.
 
 <a name='license'></a>
 ## License
@@ -44,4 +44,9 @@ n/a
 
 <a name='questions'></a>
 ## Questions
+
+[Link to my GitHub Profile](https://github.com/marousiss)
+
+
+For additional questions please contact me at the following email address: marousiss@gmail.com
 

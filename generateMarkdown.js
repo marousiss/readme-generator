@@ -94,6 +94,11 @@ ${data.testInstructions}
 <a name='questions'></a>
 ## Questions
 
+[Link to my GitHub Profile](${data.gitUserName})
+
+
+For additional questions please contact me at the following email address: ${data.email}
+
 `;
 }
 
