@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a command-line application that dynamically generates a README file from a user's input.
+This is a command-line application
 
 ## Table of Contents
 
@@ -20,17 +20,20 @@ This is a command-line application that dynamically generates a README file from
 <a name='installation'></a>
 ## Installation
 
-n/a
+```
+
+Run npm i to install dependencies
+```
 
 <a name='usage'></a>
 ## Usage
 
-This project can be used to dynamically create a README file.
+This project creates a README file dynamically
 
 <a name='contributing'></a>
 ## Contributing
 
-For Suggestions please fork the repo and create a pull request.
+n/a
 
 <a name='license'></a>
 ## License
@@ -45,8 +48,8 @@ n/a
 <a name='questions'></a>
 ## Questions
 
-[Link to my GitHub Profile](https://github.com/marousiss)
+For additional questions please contact me at the following email address: test
 
 
-For additional questions please contact me at the following email address: marousiss@gmail.com
+Please check my [GitHub Profile](http://github.com/test) for more info about my work.
 

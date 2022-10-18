@@ -7,52 +7,52 @@ const generateMarkdown = require('./generateMarkdown.js');
 
 // Array of questions for user input
 const questions = [
-   {
-      type: 'input',
-      name: 'title',
-      message: 'Project title:',
-    },
-    {
-      type: 'input',
-      name: 'description',
-      message: 'Project Description:',
-    },
-    {
-        type: 'input',
-        name: 'installation',
-        message: 'Installation Instructions:',
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'Usage Information:',
-    },
-    {
-        type: 'input',
-        name: 'contribGuidelines',
-        message: 'Contribution Guidelines:',
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Choose a license for your project:',
-        choices: ['MIT', 'GNU GPLv3', 'ISC'],
-    },
-    {
-        type: 'input',
-        name: 'testInstructions',
-        message: 'Test Instructions:',
-    },
-    {
-        type: 'input',
-        name: 'gitUserName',
-        message: 'Enter your GitHub username:',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Enter your email address:',
-    },
+{
+    type: 'input',
+    name: 'title',
+    message: 'Project title:',
+},
+{
+    type: 'input',
+    name: 'description',
+    message: 'Project Description:',
+},
+{
+    type: 'input',
+    name: 'installation',
+    message: 'Please enter your installation instructions here:',
+},
+{
+    type: 'input',
+    name: 'usage',
+    message: 'Usage Information:',
+},
+{
+    type: 'input',
+    name: 'contribGuidelines',
+    message: 'Contribution Guidelines:',
+},
+{
+    type: 'list',
+    name: 'license',
+    message: 'Choose a license for your project:',
+    choices: ['MIT', 'GNU GPLv3', 'ISC'],
+},
+{
+    type: 'input',
+    name: 'testInstructions',
+    message: 'Test Instructions:',
+},
+{
+    type: 'input',
+    name: 'gitUserName',
+    message: 'Enter your GitHub username:',
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email address:',
+},
 
 ];
 
@@ -69,7 +69,7 @@ function init() {
         .prompt(questions)
         .then((data) => {
             let readmeContent = generateMarkdown(data);
-            writeToFile("README.md", readmeContent);
+            writeToFile("./generatedREADME/README.md", readmeContent);
         })
         .catch((error) => {
             if (error.isTtyError) {

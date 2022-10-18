@@ -47,6 +47,9 @@ function renderLicenseSection(license) {
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
+  const backstrokes = "```";
+  const githublink = "http://github.com/";
+
   return `
 
 ${renderLicenseBadge(data.license)}
@@ -69,7 +72,10 @@ ${data.description}
 <a name='installation'></a>
 ## Installation
 
+${backstrokes}
+
 ${data.installation}
+${backstrokes}
 
 <a name='usage'></a>
 ## Usage
@@ -94,10 +100,10 @@ ${data.testInstructions}
 <a name='questions'></a>
 ## Questions
 
-[Link to my GitHub Profile](${data.gitUserName})
-
-
 For additional questions please contact me at the following email address: ${data.email}
+
+
+Please check my [GitHub Profile](${githublink}${data.gitUserName}) for more info about my work.
 
 `;
 }
