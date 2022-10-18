@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a command-line application
+A command-line application
 
 ## Table of Contents
 
@@ -22,13 +22,13 @@ This is a command-line application
 
 ```
 
-Run npm i to install dependencies
+Run npm i for dependencies
 ```
 
 <a name='usage'></a>
 ## Usage
 
-This project creates a README file dynamically
+Generates a README file
 
 <a name='contributing'></a>
 ## Contributing
@@ -48,8 +48,8 @@ n/a
 <a name='questions'></a>
 ## Questions
 
-For additional questions please contact me at the following email address: test
+For additional questions please contact me at the following email address: marousiss@gmail.com
 
 
-Please check my [GitHub Profile](http://github.com/test) for more info about my work.
+Please check my [GitHub Profile](http://github.com/marousiss) for more info about my work.
 
